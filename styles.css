@@ -69,16 +69,16 @@ body {
 /* Animation */
 .fade-in {
   opacity: 0;
-  transform: translateY(20px);
-  animation: fadeInUp 1s forwards;
+  transform: translateY(50px); /* more "rising up" effect */
+  animation: fadeInUp 1.8s ease-out forwards;
 }
 
 .delay {
-  animation-delay: 0.5s;
+  animation-delay: 1.5s; /* delay before it starts */
 }
 
 .delay-2 {
-  animation-delay: 1s;
+  animation-delay: 2.2s; /* use this for button section */
 }
 
 @keyframes fadeInUp {
@@ -87,4 +87,5 @@ body {
     transform: translateY(0);
   }
 }
+
 
