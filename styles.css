@@ -27,8 +27,8 @@ header {
 }
 
 .logo {
-  height: 50px;       /* Adjust between 40–60px */
-  width: 150px;        /* Auto width to keep proportions */
+  height: 50px;
+  aspect-ratio: 2/1;
   }
 
 
