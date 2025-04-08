@@ -27,9 +27,12 @@ header {
 }
 
 .logo {
-  height: 100px;
-  aspect-ratio: 1/2;
-  }
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  image-rendering: -webkit-optimize-contrast;
+  aspect-ratio: 4 / 1;
+}
 
 
 nav ul {
