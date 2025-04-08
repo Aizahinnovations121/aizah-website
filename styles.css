@@ -13,6 +13,7 @@ body {
   background-color: white;
 }
 
+
 .logo {
   height: 60px;
 }
@@ -86,6 +87,10 @@ body {
     opacity: 1;
     transform: translateY(0);
   }
+}
+.logo {
+  height: 60px;
+  width: auto;
 }
 
 
