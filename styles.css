@@ -28,9 +28,8 @@ header {
 
 .logo {
   height: 50px;       /* Adjust between 40–60px */
-  width: auto;        /* Auto width to keep proportions */
-  object-fit: contain;
-}
+  width: 150px;        /* Auto width to keep proportions */
+  }
 
 
 nav ul {
